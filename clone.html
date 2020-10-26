@@ -1,0 +1,169 @@
+<html>
+<head><title>jS</title></head>
+
+
+<body>
+<div id="btn">
+<button onclick="nClique()">Não clique!</button>
+<button onclick="tCliques()">Total cliques</button>
+<button onclick="zCliques()">Pedir perdão</button>
+
+</div>
+
+<style>
+
+#btn 
+{
+    
+   border-radius: 30px 20px 30px 40px;
+}
+
+
+</style>
+
+<script>
+var c= 0 ,ccount = 0;
+
+function nClique()
+{
+
+
+
+if (ccount == 0)
+
+{
+
+alert ('Mandei não clicar!');
+
+
+}
+
+else if (ccount == 1)
+{
+    alert ('Pare de clicar !!! É uma ordem');
+    
+}
+
+else if (ccount == 2)
+{
+    alert ('Você esta de brincadeira comigo?!');
+    
+}
+else if (ccount == 3)
+{
+    alert ('Se você parar de clicar vai ganhar um iPhone 12');
+    
+}
+else if (ccount == 4)
+{
+    alert ('PARE DE CLICAR, É A ÚLTIMA VEZ QUE AVISO');
+    
+}
+
+else if (ccount == 5)
+{
+    alert ('SE VOCÊ CLICAR NOVAMENTE EU VOU TE MATAR');
+    
+}
+else if (ccount == 6)
+{
+    alert ('Ah, você não liga pra sua vida?! Ok, se clicar de novo eu vou jogar uma bomba na sua cidade!!!');
+    
+}
+
+else if (ccount == 7)
+{
+    alert ('BOOOM! É isso mesmo, você está morto, eu avisei né? Agora pare de clicar');
+    
+}
+
+else if (ccount == 8)
+{
+    alert ('PARE DE CLICAR FANTASMA PROFANO');
+    
+}
+
+else if (ccount == 9)
+{
+    alert ('PARE DE CLICAR AGORA E EU TE PERDOO');
+    
+}
+
+else if (ccount == 10)
+{
+    alert ('VOCÊ NÃO QUER PERDÃO? OK, NÃO TINHA TE MATADO DE VERDADE MAS AGORA EU VOU!!');
+    
+}
+
+
+else if (ccount == 11)
+{
+    alert ('BOOOOOOOOM!');
+    
+}
+
+
+
+
+
+ccount ++;
+
+} 
+
+function tCliques()
+{
+
+c = ccount;
+
+if (c == 1)
+{
+    alert(`Você clicou ${c} vez!`);
+
+}
+
+else if (c == 0)
+{
+    alert(`Você clicou ${c} vezes!`);
+}
+
+else 
+{
+    alert (`Você clicou ${c} vezes!`);
+}
+
+}
+
+function zCliques()
+{
+
+if (ccount <= 10)
+{
+alert ('Cliques zerados, você foi perdoado.');
+}
+
+else 
+{
+    alert ('Tarde demais !!! HAHAHAHA');
+}
+
+ccount = 0;
+
+
+
+
+}
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+</html>

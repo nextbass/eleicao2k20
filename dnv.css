@@ -1,0 +1,114 @@
+
+#con
+{
+    display : flex;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+}
+#pos 
+{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+
+
+#logo
+{
+    display : flex;
+    margin-top: -150px;
+    margin-left: -15px;
+    width: 280px;
+    height: 180px;
+    text-align: center;
+}
+
+#txtCpf
+{
+    display:flex;
+    border-radius: 10px 10px 10px 10px;
+    height: 25px;
+    
+}
+#txCpf
+{
+margin-left: 185px;
+margin-top : -21px;
+display:flex;
+font-weight: bold;
+color : white;
+}
+#votar 
+
+{
+    margin-top : 35px;
+}
+#vManga
+{
+    font-weight: bold;
+    display: flex;
+    border-radius: 10px;
+    width : 150px;
+    height: 50px;
+}
+
+#vCrespo 
+{
+    font-weight: bold;
+    margin-top : -50px;
+    margin-left: 153px;
+    border-radius: 10px;
+    width : 150px;
+    height: 50px;
+}
+#tManga 
+{
+    font-weight: bold;
+    border-radius: 10px;
+    width : 150px;
+    height: 50px;
+}
+
+#tCrespo
+{
+    font-weight: bold;
+    border-radius: 10px;
+    width : 150px;
+    height: 50px;
+}
+#tVotos0
+{
+    font-weight: bold;
+    border-radius: 10px;
+    width : 150px;
+    height: 50px;
+}
+
+#lVotos
+{
+    font-weight: bold;
+    border-radius: 10px;
+    width : 150px;
+    height: 50px;
+}
+
+#finalizacolor
+{   
+    font-weight: bold;
+    background-color: red;
+     
+    border-radius: 10px;
+    width : 150px;
+    height: 50px;
+}
+#vencedorcolor
+{   font-weight: bold;
+    border-radius: 10px;
+    width : 150px;
+    height: 50px;
+   
+    background-color: green;
+}
+
